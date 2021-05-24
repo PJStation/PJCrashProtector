@@ -21,7 +21,38 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8139CE23F2F62415885C66E8 /* Pods_PJCrashProtector_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C13B9223F6A7501D740917 /* Pods_PJCrashProtector_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A46DBF3A2655FAC800440359 /* PJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF392655FAC800440359 /* PJTest.m */; };
+		A46DBF6F2656036E00440359 /* UINavigationController+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF3F2656036D00440359 /* UINavigationController+MKCrashGuard.m */; };
+		A46DBF702656036E00440359 /* NSDictionary+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF412656036D00440359 /* NSDictionary+MKCrashGuard.m */; };
+		A46DBF712656036E00440359 /* NSObject+MKKVCCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF422656036D00440359 /* NSObject+MKKVCCrashGuard.m */; };
+		A46DBF722656036E00440359 /* MKException.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF432656036D00440359 /* MKException.m */; };
+		A46DBF732656036E00440359 /* NSTimer+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF442656036D00440359 /* NSTimer+MKCrashGuard.m */; };
+		A46DBF742656036E00440359 /* NSMutableAttributedString+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF452656036D00440359 /* NSMutableAttributedString+MKCrashGuard.m */; };
+		A46DBF752656036E00440359 /* NSArray+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF462656036D00440359 /* NSArray+MKCrashGuard.m */; };
+		A46DBF762656036E00440359 /* NSAttributedString+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF482656036D00440359 /* NSAttributedString+MKCrashGuard.m */; };
+		A46DBF772656036E00440359 /* NSObject+MKKVOCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF4A2656036D00440359 /* NSObject+MKKVOCrashGuard.m */; };
+		A46DBF782656036E00440359 /* NSObject+MKNotificationCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF4C2656036D00440359 /* NSObject+MKNotificationCrashGuard.m */; };
+		A46DBF792656036E00440359 /* NSNumber+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF4E2656036D00440359 /* NSNumber+MKCrashGuard.m */; };
+		A46DBF7A2656036E00440359 /* NSObject+MKSELCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF4F2656036D00440359 /* NSObject+MKSELCrashGuard.m */; };
+		A46DBF7B2656036E00440359 /* MKCrashGuardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF542656036D00440359 /* MKCrashGuardManager.m */; };
+		A46DBF7C2656036E00440359 /* NSObject+MKSwizzleHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF552656036D00440359 /* NSObject+MKSwizzleHook.m */; };
+		A46DBF7D2656036E00440359 /* MKCrashGuardConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF592656036D00440359 /* MKCrashGuardConst.m */; };
+		A46DBF7E2656036E00440359 /* NSNull+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF5A2656036D00440359 /* NSNull+MKCrashGuard.m */; };
+		A46DBF7F2656036E00440359 /* NSObject+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF5B2656036D00440359 /* NSObject+MKCrashGuard.m */; };
+		A46DBF802656036E00440359 /* NSSet+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF5D2656036D00440359 /* NSSet+MKCrashGuard.m */; };
+		A46DBF812656036E00440359 /* NSMutableDictionary+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF5E2656036D00440359 /* NSMutableDictionary+MKCrashGuard.m */; };
+		A46DBF822656036E00440359 /* NSString+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF602656036D00440359 /* NSString+MKCrashGuard.m */; };
+		A46DBF832656036E00440359 /* NSMutableArray+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF652656036E00440359 /* NSMutableArray+MKCrashGuard.m */; };
+		A46DBF842656036E00440359 /* NSMutableSet+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF662656036E00440359 /* NSMutableSet+MKCrashGuard.m */; };
+		A46DBF852656036E00440359 /* NSMutableString+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF692656036E00440359 /* NSMutableString+MKCrashGuard.m */; };
+		A46DBF862656036E00440359 /* NSUserDefaults+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF6D2656036E00440359 /* NSUserDefaults+MKCrashGuard.m */; };
+		A46DBF872656036E00440359 /* NSCache+MKCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF6E2656036E00440359 /* NSCache+MKCrashGuard.m */; };
+		A46DBF8A265656BB00440359 /* NSObject+PJProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DBF89265656BB00440359 /* NSObject+PJProtector.m */; };
+		A49DC367265502D40000E406 /* PJCrashProtector.c in Sources */ = {isa = PBXBuildFile; fileRef = A49DC366265502D40000E406 /* PJCrashProtector.c */; };
+		A49DC36A265507610000E406 /* PJTest+Protector.m in Sources */ = {isa = PBXBuildFile; fileRef = A49DC369265507610000E406 /* PJTest+Protector.m */; };
+		B69E397890F28E9D231073EB /* Pods_PJCrashProtector_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B45B1B4149F1329DEDB3AE /* Pods_PJCrashProtector_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2ED3F6FC0C4254BAC39930AA /* PJCrashProtector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PJCrashProtector.podspec; path = ../PJCrashProtector.podspec; sourceTree = "<group>"; };
+		0F1003135536696351F22652 /* Pods-PJCrashProtector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJCrashProtector_Tests.release.xcconfig"; path = "Target Support Files/Pods-PJCrashProtector_Tests/Pods-PJCrashProtector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2ED3F6FC0C4254BAC39930AA /* PJCrashProtector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PJCrashProtector.podspec; path = ../PJCrashProtector.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PJCrashProtector_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJCrashProtector_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,9 +88,72 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75B45B1B4149F1329DEDB3AE /* Pods_PJCrashProtector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJCrashProtector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782B8CA9A16F702C6EB9CA2F /* Pods-PJCrashProtector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJCrashProtector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PJCrashProtector_Tests/Pods-PJCrashProtector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C673C853845D8FD1197E0E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CBEE15E6160E644BE9A9A078 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		89C13B9223F6A7501D740917 /* Pods_PJCrashProtector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJCrashProtector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46DBF382655FAC800440359 /* PJTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJTest.h; sourceTree = "<group>"; };
+		A46DBF392655FAC800440359 /* PJTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJTest.m; sourceTree = "<group>"; };
+		A46DBF3D2656036D00440359 /* NSObject+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF3E2656036D00440359 /* NSNull+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF3F2656036D00440359 /* UINavigationController+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF402656036D00440359 /* MKCrashGuardConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCrashGuardConst.h; sourceTree = "<group>"; };
+		A46DBF412656036D00440359 /* NSDictionary+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF422656036D00440359 /* NSObject+MKKVCCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKKVCCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF432656036D00440359 /* MKException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKException.m; sourceTree = "<group>"; };
+		A46DBF442656036D00440359 /* NSTimer+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF452656036D00440359 /* NSMutableAttributedString+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF462656036D00440359 /* NSArray+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF472656036D00440359 /* NSString+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF482656036D00440359 /* NSAttributedString+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF492656036D00440359 /* NSMutableDictionary+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF4A2656036D00440359 /* NSObject+MKKVOCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKKVOCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF4B2656036D00440359 /* NSSet+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF4C2656036D00440359 /* NSObject+MKNotificationCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKNotificationCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF4D2656036D00440359 /* NSMutableString+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF4E2656036D00440359 /* NSNumber+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF4F2656036D00440359 /* NSObject+MKSELCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKSELCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF502656036D00440359 /* NSMutableSet+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF512656036D00440359 /* NSMutableArray+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF522656036D00440359 /* NSCache+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF532656036D00440359 /* NSUserDefaults+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF542656036D00440359 /* MKCrashGuardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCrashGuardManager.m; sourceTree = "<group>"; };
+		A46DBF552656036D00440359 /* NSObject+MKSwizzleHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKSwizzleHook.m"; sourceTree = "<group>"; };
+		A46DBF562656036D00440359 /* NSObject+MKKVCCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKKVCCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF572656036D00440359 /* UINavigationController+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF582656036D00440359 /* NSDictionary+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF592656036D00440359 /* MKCrashGuardConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCrashGuardConst.m; sourceTree = "<group>"; };
+		A46DBF5A2656036D00440359 /* NSNull+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF5B2656036D00440359 /* NSObject+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF5C2656036D00440359 /* NSObject+MKKVOCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKKVOCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF5D2656036D00440359 /* NSSet+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF5E2656036D00440359 /* NSMutableDictionary+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF5F2656036D00440359 /* NSAttributedString+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF602656036D00440359 /* NSString+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF612656036D00440359 /* NSArray+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF622656036D00440359 /* NSMutableAttributedString+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF632656036E00440359 /* MKException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKException.h; sourceTree = "<group>"; };
+		A46DBF642656036E00440359 /* NSTimer+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF652656036E00440359 /* NSMutableArray+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF662656036E00440359 /* NSMutableSet+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF672656036E00440359 /* NSNumber+MKCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MKCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF682656036E00440359 /* NSObject+MKSELCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKSELCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF692656036E00440359 /* NSMutableString+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF6A2656036E00440359 /* NSObject+MKNotificationCrashGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKNotificationCrashGuard.h"; sourceTree = "<group>"; };
+		A46DBF6B2656036E00440359 /* NSObject+MKSwizzleHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKSwizzleHook.h"; sourceTree = "<group>"; };
+		A46DBF6C2656036E00440359 /* MKCrashGuardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCrashGuardManager.h; sourceTree = "<group>"; };
+		A46DBF6D2656036E00440359 /* NSUserDefaults+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF6E2656036E00440359 /* NSCache+MKCrashGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+MKCrashGuard.m"; sourceTree = "<group>"; };
+		A46DBF88265656BB00440359 /* NSObject+PJProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PJProtector.h"; sourceTree = "<group>"; };
+		A46DBF89265656BB00440359 /* NSObject+PJProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PJProtector.m"; sourceTree = "<group>"; };
+		A49DC365265502D40000E406 /* PJCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJCrashProtector.h; sourceTree = "<group>"; };
+		A49DC366265502D40000E406 /* PJCrashProtector.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PJCrashProtector.c; sourceTree = "<group>"; };
+		A49DC368265507610000E406 /* PJTest+Protector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PJTest+Protector.h"; sourceTree = "<group>"; };
+		A49DC369265507610000E406 /* PJTest+Protector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PJTest+Protector.m"; sourceTree = "<group>"; };
+		ADE2F6B53A2B6E80A2AEECFB /* Pods-PJCrashProtector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJCrashProtector_Example.debug.xcconfig"; path = "Target Support Files/Pods-PJCrashProtector_Example/Pods-PJCrashProtector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C673C853845D8FD1197E0E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CBEE15E6160E644BE9A9A078 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E8D5C3B3254948C589C05F05 /* Pods-PJCrashProtector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJCrashProtector_Example.release.xcconfig"; path = "Target Support Files/Pods-PJCrashProtector_Example/Pods-PJCrashProtector_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +164,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				8139CE23F2F62415885C66E8 /* Pods_PJCrashProtector_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +175,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				B69E397890F28E9D231073EB /* Pods_PJCrashProtector_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +190,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				8A01893D288C6E70CDFEC5D6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +210,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				89C13B9223F6A7501D740917 /* Pods_PJCrashProtector_Example.framework */,
+				75B45B1B4149F1329DEDB3AE /* Pods_PJCrashProtector_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +219,7 @@
 		6003F593195388D20070C39A /* Example for PJCrashProtector */ = {
 			isa = PBXGroup;
 			children = (
+				A46DBF3B2656036D00440359 /* MKCrash */,
 				6003F59C195388D20070C39A /* PJAppDelegate.h */,
 				6003F59D195388D20070C39A /* PJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -127,6 +228,14 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				A49DC365265502D40000E406 /* PJCrashProtector.h */,
+				A49DC366265502D40000E406 /* PJCrashProtector.c */,
+				A49DC368265507610000E406 /* PJTest+Protector.h */,
+				A49DC369265507610000E406 /* PJTest+Protector.m */,
+				A46DBF382655FAC800440359 /* PJTest.h */,
+				A46DBF392655FAC800440359 /* PJTest.m */,
+				A46DBF88265656BB00440359 /* NSObject+PJProtector.h */,
+				A46DBF89265656BB00440359 /* NSObject+PJProtector.m */,
 			);
 			name = "Example for PJCrashProtector";
 			path = PJCrashProtector;
@@ -172,6 +281,82 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8A01893D288C6E70CDFEC5D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2F6B53A2B6E80A2AEECFB /* Pods-PJCrashProtector_Example.debug.xcconfig */,
+				E8D5C3B3254948C589C05F05 /* Pods-PJCrashProtector_Example.release.xcconfig */,
+				782B8CA9A16F702C6EB9CA2F /* Pods-PJCrashProtector_Tests.debug.xcconfig */,
+				0F1003135536696351F22652 /* Pods-PJCrashProtector_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A46DBF3B2656036D00440359 /* MKCrash */ = {
+			isa = PBXGroup;
+			children = (
+				A46DBF3C2656036D00440359 /* MKCrashGuard */,
+			);
+			path = MKCrash;
+			sourceTree = "<group>";
+		};
+		A46DBF3C2656036D00440359 /* MKCrashGuard */ = {
+			isa = PBXGroup;
+			children = (
+				A46DBF402656036D00440359 /* MKCrashGuardConst.h */,
+				A46DBF592656036D00440359 /* MKCrashGuardConst.m */,
+				A46DBF6C2656036E00440359 /* MKCrashGuardManager.h */,
+				A46DBF542656036D00440359 /* MKCrashGuardManager.m */,
+				A46DBF632656036E00440359 /* MKException.h */,
+				A46DBF432656036D00440359 /* MKException.m */,
+				A46DBF612656036D00440359 /* NSArray+MKCrashGuard.h */,
+				A46DBF462656036D00440359 /* NSArray+MKCrashGuard.m */,
+				A46DBF5F2656036D00440359 /* NSAttributedString+MKCrashGuard.h */,
+				A46DBF482656036D00440359 /* NSAttributedString+MKCrashGuard.m */,
+				A46DBF522656036D00440359 /* NSCache+MKCrashGuard.h */,
+				A46DBF6E2656036E00440359 /* NSCache+MKCrashGuard.m */,
+				A46DBF582656036D00440359 /* NSDictionary+MKCrashGuard.h */,
+				A46DBF412656036D00440359 /* NSDictionary+MKCrashGuard.m */,
+				A46DBF512656036D00440359 /* NSMutableArray+MKCrashGuard.h */,
+				A46DBF652656036E00440359 /* NSMutableArray+MKCrashGuard.m */,
+				A46DBF622656036D00440359 /* NSMutableAttributedString+MKCrashGuard.h */,
+				A46DBF452656036D00440359 /* NSMutableAttributedString+MKCrashGuard.m */,
+				A46DBF492656036D00440359 /* NSMutableDictionary+MKCrashGuard.h */,
+				A46DBF5E2656036D00440359 /* NSMutableDictionary+MKCrashGuard.m */,
+				A46DBF502656036D00440359 /* NSMutableSet+MKCrashGuard.h */,
+				A46DBF662656036E00440359 /* NSMutableSet+MKCrashGuard.m */,
+				A46DBF4D2656036D00440359 /* NSMutableString+MKCrashGuard.h */,
+				A46DBF692656036E00440359 /* NSMutableString+MKCrashGuard.m */,
+				A46DBF3E2656036D00440359 /* NSNull+MKCrashGuard.h */,
+				A46DBF5A2656036D00440359 /* NSNull+MKCrashGuard.m */,
+				A46DBF672656036E00440359 /* NSNumber+MKCrashGuard.h */,
+				A46DBF4E2656036D00440359 /* NSNumber+MKCrashGuard.m */,
+				A46DBF3D2656036D00440359 /* NSObject+MKCrashGuard.h */,
+				A46DBF5B2656036D00440359 /* NSObject+MKCrashGuard.m */,
+				A46DBF562656036D00440359 /* NSObject+MKKVCCrashGuard.h */,
+				A46DBF422656036D00440359 /* NSObject+MKKVCCrashGuard.m */,
+				A46DBF5C2656036D00440359 /* NSObject+MKKVOCrashGuard.h */,
+				A46DBF4A2656036D00440359 /* NSObject+MKKVOCrashGuard.m */,
+				A46DBF6A2656036E00440359 /* NSObject+MKNotificationCrashGuard.h */,
+				A46DBF4C2656036D00440359 /* NSObject+MKNotificationCrashGuard.m */,
+				A46DBF682656036E00440359 /* NSObject+MKSELCrashGuard.h */,
+				A46DBF4F2656036D00440359 /* NSObject+MKSELCrashGuard.m */,
+				A46DBF6B2656036E00440359 /* NSObject+MKSwizzleHook.h */,
+				A46DBF552656036D00440359 /* NSObject+MKSwizzleHook.m */,
+				A46DBF4B2656036D00440359 /* NSSet+MKCrashGuard.h */,
+				A46DBF5D2656036D00440359 /* NSSet+MKCrashGuard.m */,
+				A46DBF472656036D00440359 /* NSString+MKCrashGuard.h */,
+				A46DBF602656036D00440359 /* NSString+MKCrashGuard.m */,
+				A46DBF642656036E00440359 /* NSTimer+MKCrashGuard.h */,
+				A46DBF442656036D00440359 /* NSTimer+MKCrashGuard.m */,
+				A46DBF532656036D00440359 /* NSUserDefaults+MKCrashGuard.h */,
+				A46DBF6D2656036E00440359 /* NSUserDefaults+MKCrashGuard.m */,
+				A46DBF572656036D00440359 /* UINavigationController+MKCrashGuard.h */,
+				A46DBF3F2656036D00440359 /* UINavigationController+MKCrashGuard.m */,
+			);
+			path = MKCrashGuard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,9 +364,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "PJCrashProtector_Example" */;
 			buildPhases = (
+				6BF5FC760896C03D721BA881 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				B367576B8D5139693E4C2DCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "PJCrashProtector_Tests" */;
 			buildPhases = (
+				AFF4DCDB1131A6AE162106C4 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -225,11 +413,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PJCrashProtector" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -266,13 +455,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BF5FC760896C03D721BA881 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PJCrashProtector_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF4DCDB1131A6AE162106C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PJCrashProtector_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B367576B8D5139693E4C2DCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PJCrashProtector_Example/Pods-PJCrashProtector_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PJCrashProtector/PJCrashProtector.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PJCrashProtector.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PJCrashProtector_Example/Pods-PJCrashProtector_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46DBF812656036E00440359 /* NSMutableDictionary+MKCrashGuard.m in Sources */,
+				A46DBF742656036E00440359 /* NSMutableAttributedString+MKCrashGuard.m in Sources */,
+				A46DBF852656036E00440359 /* NSMutableString+MKCrashGuard.m in Sources */,
+				A49DC367265502D40000E406 /* PJCrashProtector.c in Sources */,
+				A46DBF792656036E00440359 /* NSNumber+MKCrashGuard.m in Sources */,
+				A46DBF7F2656036E00440359 /* NSObject+MKCrashGuard.m in Sources */,
+				A46DBF772656036E00440359 /* NSObject+MKKVOCrashGuard.m in Sources */,
+				A46DBF3A2655FAC800440359 /* PJTest.m in Sources */,
+				A46DBF782656036E00440359 /* NSObject+MKNotificationCrashGuard.m in Sources */,
 				6003F59E195388D20070C39A /* PJAppDelegate.m in Sources */,
+				A46DBF872656036E00440359 /* NSCache+MKCrashGuard.m in Sources */,
+				A46DBF722656036E00440359 /* MKException.m in Sources */,
+				A49DC36A265507610000E406 /* PJTest+Protector.m in Sources */,
+				A46DBF822656036E00440359 /* NSString+MKCrashGuard.m in Sources */,
+				A46DBF702656036E00440359 /* NSDictionary+MKCrashGuard.m in Sources */,
+				A46DBF7B2656036E00440359 /* MKCrashGuardManager.m in Sources */,
+				A46DBF8A265656BB00440359 /* NSObject+PJProtector.m in Sources */,
+				A46DBF7E2656036E00440359 /* NSNull+MKCrashGuard.m in Sources */,
+				A46DBF7A2656036E00440359 /* NSObject+MKSELCrashGuard.m in Sources */,
+				A46DBF762656036E00440359 /* NSAttributedString+MKCrashGuard.m in Sources */,
+				A46DBF7D2656036E00440359 /* MKCrashGuardConst.m in Sources */,
+				A46DBF832656036E00440359 /* NSMutableArray+MKCrashGuard.m in Sources */,
+				A46DBF6F2656036E00440359 /* UINavigationController+MKCrashGuard.m in Sources */,
 				6003F5A7195388D20070C39A /* PJViewController.m in Sources */,
+				A46DBF7C2656036E00440359 /* NSObject+MKSwizzleHook.m in Sources */,
+				A46DBF802656036E00440359 /* NSSet+MKCrashGuard.m in Sources */,
+				A46DBF752656036E00440359 /* NSArray+MKCrashGuard.m in Sources */,
+				A46DBF862656036E00440359 /* NSUserDefaults+MKCrashGuard.m in Sources */,
+				A46DBF842656036E00440359 /* NSMutableSet+MKCrashGuard.m in Sources */,
+				A46DBF732656036E00440359 /* NSTimer+MKCrashGuard.m in Sources */,
+				A46DBF712656036E00440359 /* NSObject+MKKVCCrashGuard.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +681,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE2F6B53A2B6E80A2AEECFB /* Pods-PJCrashProtector_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -413,6 +697,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D5C3B3254948C589C05F05 /* Pods-PJCrashProtector_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -428,6 +713,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782B8CA9A16F702C6EB9CA2F /* Pods-PJCrashProtector_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +738,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1003135536696351F22652 /* Pods-PJCrashProtector_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -473,7 +760,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "PJCrashProtector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

@@ -7,9 +7,12 @@
 //
 
 #import "PJViewController.h"
-
-@interface PJViewController ()
-
+#import "PJTest.h"
+#import <objc/runtime.h>
+#import "PJTest+Protector.h"
+@interface PJViewController (){
+    PJTest *_test;
+}
 @end
 
 @implementation PJViewController
@@ -17,13 +20,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+//
+    
+//    NSObject *object = [NSObject new];
+//    [object performSelector:@selector(testFunction)];
+    
+    
+    _test = [PJTest new];
+    [_test performSelector:@selector(testFunction:)];
+
 }
 
-- (void)didReceiveMemoryWarning
+- (void)testImplementation
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+   
 }
+
+- (void)testFunction2{
+    NSLog(@"%@",NSStringFromClass(self.class));
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesEnded:touches withEvent:event];
+    [_test performSelector:@selector(testFunction:)];
+}
+
 
 @end

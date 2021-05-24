@@ -7,12 +7,46 @@
 //
 
 #import "PJAppDelegate.h"
-
+#import "PJViewController.h"
+#import "MKCrashGuardManager.h"
+#include <objc/runtime.h>
+#include <objc/message.h>
 @implementation PJAppDelegate
+- (void)testFunction3{
+    NSLog(@"%@----%@",NSStringFromClass(self.class),NSStringFromClass(self.class));
 
+}
+
+- (void)testFunction4:(NSString *)str{
+    NSLog(@"--%@",str);
+
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+//    [MKCrashGuardManager executeAppGuard];
+    [MKCrashGuardManager printLog:YES];
+//    [MKCrashGuardManager registerCrashHandle:self];
+    
+//    Method method = class_getInstanceMethod([self class], @selector(testFunction2));
+    
+    
+//    Method method = class_getInstanceMethod(self.class, @selector(testFunction2));
+//    IMP imp = method_getImplementation(method);
+//    SEL sel = @selector(testFunction3);
+//
+//    NSLog(@"%p",@selector(testFunction3));
+//    NSLog(@"%p",sel);
+    
+    objc_msgSend(self, @selector(testFunction3));
+    objc_msgSend(self, @selector(testFunction4:),@"1234567890");
+//    BOOL (*msg)(Class, SEL, SEL) = (typeof(msg))objc_msgSend;
+    
+    typedef void (^Block) (int num);
+    void (*pj_objc_msgSend)(id, SEL, Block) = (typeof(pj_objc_msgSend))objc_msgSend;
+    pj_objc_msgSend(self,@selector(testFunction3),^(int num){
+        NSLog(@"Block---%d",num);
+    });
+    
     return YES;
 }
 
