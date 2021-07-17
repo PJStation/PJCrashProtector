@@ -22,8 +22,8 @@
     [super viewDidLoad];
 //
     
-//    NSObject *object = [NSObject new];
-//    [object performSelector:@selector(testFunction)];
+    NSObject *object = [NSObject new];
+    [object performSelector:@selector(testFunction)];
     
     
     _test = [PJTest new];

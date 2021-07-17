@@ -44,39 +44,18 @@
     
     return [NSMethodSignature signatureWithObjCTypes:"v@:@"];
 
-//    NSMethodSignature *methodSig = [self mk_methodSignatureForSelector:aSelector];
-//    if(methodSig == nil) {
-//        methodSig = [NSMethodSignature signatureWithObjCTypes:"v@:@"];
-//        return methodSig;
-//    }
 
 
 }
 
 - (void)mk_forwardInvocation:(NSInvocation*)invocation {
     NSLog(@"mk_forwardInvocation");
-  
-    SEL aSelector = [invocation selector];
 
-    if ([[self.class alloc] respondsToSelector:aSelector]) {
-        [invocation invokeWithTarget:[self.class  alloc]];
-    }
 
 //    mkHandleCrashException([NSString stringWithFormat:@"forwardInvocation: Unrecognized instance class:%@ and selector:%@",NSStringFromClass(self.class),NSStringFromSelector(invocation.selector)]);
 }
 
 
-+ (NSMethodSignature *)checkObjectSignatureAndCurrentClass:(Class)currentClass {
-    IMP originIMP = class_getMethodImplementation([self class], @selector(methodSignatureForSelector:));
-    IMP currentClassIMP = class_getMethodImplementation(currentClass, @selector(methodSignatureForSelector:));
-    
-    // 已重写
-    if (originIMP != currentClassIMP){
-        return nil;
-    }
-    
-    return [NSMethodSignature signatureWithObjCTypes:"v@:@"];
-}
 
 
 @end
