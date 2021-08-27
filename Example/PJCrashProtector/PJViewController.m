@@ -7,11 +7,10 @@
 //
 
 #import "PJViewController.h"
-#import "PJTest.h"
 #import <objc/runtime.h>
-#import "PJTest+Protector.h"
+
 @interface PJViewController (){
-    PJTest *_test;
+    NSObject *object;
 }
 @end
 
@@ -21,13 +20,10 @@
 {
     [super viewDidLoad];
 //
+    object = [NSObject new];
+//    [object performSelector:@selector(testFunction)];
     
-    NSObject *object = [NSObject new];
-    [object performSelector:@selector(testFunction)];
-    
-    
-    _test = [PJTest new];
-    [_test performSelector:@selector(testFunction:)];
+
 
 }
 
@@ -41,7 +37,7 @@
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesEnded:touches withEvent:event];
-    [_test performSelector:@selector(testFunction:)];
+    [object performSelector:@selector(testFunction:)];
 }
 
 

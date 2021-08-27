@@ -23,7 +23,7 @@ void PJ_ReplaceMethod(Class _originalClass ,SEL _originalSel, Class _targetClass
     
     BOOL isAdded = class_addMethod(_originalClass, _originalSel, impNew, typeNew);
     if (isAdded) {
-        //class_addMethod返回的布尔值为YES，表示被替换的方法没有实现，可以通过class_addMethod添加方法实现
+        //class_addMethod返回的布尔值为YES，添加方法成功，表示被替换的方法没有实现，可以通过class_addMethod添加方法实现
         class_replaceMethod(_targetClass, _targetSel, impOriginal, typeOriginal);
     } else {
         //返回的布尔值为NO，表示被目标方法已经存在，可以直接进行IMP指针交换
